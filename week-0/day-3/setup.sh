@@ -48,8 +48,8 @@ def create_app(test_config=None):
         pass
 
     # a simple page that list my todos
-    @app.route('/shivang')
-    def shivang():
+    @app.route('/utkarsh')
+    def utkarsh():
         return ('Wake Up' + '<br/>' +
             'Drink Coffee' + '<br/>' +
             'Read Non-fiction Novel' + '<br/>'
